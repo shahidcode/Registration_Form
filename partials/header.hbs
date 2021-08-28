@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="items">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#34495e;
+}
+
+.nav-bar{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-bar .items ul{
+    position: relative;
+    display: flex;
+    float: right;
+    margin: 1.5rem;
+}
+
+.nav-bar .items ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-right: 2rem;
+    padding: 10px;
+}
+
+.nav-bar .items ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar .items ul li:hover{
+    border-bottom: 1px solid cyan;
+    transform: scale(1.05);
+}
+
+</style>
+
+</html>

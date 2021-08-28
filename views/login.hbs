@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        login
+    </title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+</head>
+
+<body>
+
+    {{>header}}
+
+    <form class="box" method="POST">            <!-- onsubmit will only work if you add input type 'submit' and not 'button' -->
+        <h1>login</h1>
+        <input id="user" type="email" name="userEmail" placeholder="Email" required>
+        <input id="pass" type="password"  name="passLogin" placeholder="Password" required>
+        <input type="submit" value="Login">                 
+    </form>
+</body>
+
+</html> 
