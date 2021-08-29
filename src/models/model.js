@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 // defining schema
 const registerSchema = new mongoose.Schema({
-    firstname : {               // you can write any variable name like first_name,FirSTName,etc
+    firstname : {               
         type:String
     },
     lastname : {
@@ -10,7 +10,7 @@ const registerSchema = new mongoose.Schema({
     },
     email : {
         type:String,
-        unique:true         // email should be unique.If same email is already present in database,it will give an error.
+        unique:true         
     },
     gender : {
         type:String
@@ -21,7 +21,7 @@ const registerSchema = new mongoose.Schema({
     },
     age: {
         type:Number,
-        required:true       // you can do this part in html also
+        required:true       
     },
     password : {
         type:String
